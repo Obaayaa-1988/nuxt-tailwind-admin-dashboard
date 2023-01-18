@@ -3,7 +3,7 @@
     <SideBar />
     
     <div class="flex-1 overflow-hidden flex flex-col ">
-        <div class="">
+        <div class="bg-slate-700 h-full">
             <Nuxt />
     
         </div>
