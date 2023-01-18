@@ -176,6 +176,53 @@
         <!-------------------------sub header ------------------end------------------->
 
 
+        <!----------------------------------------start-- dark cards----------------->
+
+<section class="rounded-b-3xl w-full h-3/4  px-16 py-6 md:col-span-2 ">
+
+    <!----------------------start cardio cards-->
+    <div class=" flex justify-evenly  ">
+        <nuxt-link to="/Running">
+            <div
+                class="bg-stone-800  w-80 h-56 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center">
+                
+
+            </div>
+        </nuxt-link>
+
+
+        <nuxt-link to="/cardio">
+            <div
+                class=" bg-stone-800 w-80 h-56 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center">
+               
+
+            </div>
+        </nuxt-link>
+        <nuxt-link to="/cardio">
+            <div
+                class="bg-stone-800  w-80 h-56 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center  ">
+                
+            </div>
+        </nuxt-link>
+        <nuxt-link to="/cardio">
+            <div
+                class="bg-stone-800   w-80 h-56 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center  ">
+                
+            </div>
+        </nuxt-link>
+       
+
+    </div>
+
+    <!-------------end cardio cards only-->
+
+</section>
+
+
+
+        <!-----------------------d---------------end--of dark cards------------------->
+
+
 
         <!------------main content of dashboard end----------------------------------->
        
