@@ -1,13 +1,10 @@
 <template>
     <div class="flex h-screen"> 
-        <div class=""> 
-            <SideBar />
-
-        </div>
+    <SideBar />
     
-    <div class="">
-        <div >
-           <Nuxt />
+    <div class="flex-1 overflow-hidden flex flex-col ">
+        <div class="">
+            <Nuxt />
     
         </div>
 
