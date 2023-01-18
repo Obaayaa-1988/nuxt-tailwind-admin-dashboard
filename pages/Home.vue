@@ -160,8 +160,24 @@
             <!----------------------------svg icons end---------------------------------->
         </div>
 
-        <!---------------mini header start------------------------------>
-        <!------------main content of dashboard end----------------------->
+        <!---------------mini header start---------------------------------------------->
+
+        <!-------------------------sub header ------------------start----------------->
+        <div class="flex justify-between px-28 py-12"> 
+            <div> 
+                <h1 class="text-white text-3xl font mono font-bold"> Overview</h1>
+            
+            </div>
+
+            <div>    
+             <button class=" font-mono text-center rounded font-extrabold  bg-white px-4 py-2"> <h1>Ash Dashboard</h1></button>
+            </div>
+        </div>
+        <!-------------------------sub header ------------------end------------------->
+
+
+
+        <!------------main content of dashboard end----------------------------------->
        
 
     </div>
