@@ -189,7 +189,7 @@
                     
                     </div>
                     
-                    <div class="bg-white py-2 px-2 ">
+                    <div class="bg-white py-2 px-2 rounded ">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                             class="w-4 h-4 "><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path
@@ -333,7 +333,7 @@
                 
                     <div>
                         <h1 class="text-gray-300 font-mono text-xs font-thin">Alerts</h1>
-                        <h2 class="text-white font-mono text-2xl "> %256 </h2>
+                        <h2 class="text-white font-mono text-2xl "> 24 </h2>
                     </div>
                 
                     <div>
@@ -360,14 +360,43 @@
    
 </section>
 
-
-
         <!--------------------------------------end--of dark cards------------------->
         <!--------------------------------------start--of main cards------------------->
-        <section>
-            <div> 
 
-            </div> 
+        <section class="px-16 py-6">
+            <div class="flex justify-between"> 
+
+                <div class="bg-stone-800  w-2/4 h-96 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center">
+
+                    <div> 
+                        <img src="images/User.jpg" alt="PanCake" class="w-36 h-36 object-cover 
+                         pt-2" />
+
+                    </div>
+
+                    <div> 
+                        <h1>hello</h1>
+                        <h1>hello</h1>
+                    </div>
+    
+    
+                    
+                
+                
+                
+                </div>
+
+                <!-- <div class=""> 
+                    <div class="bg-stone-800  w-8 h-48 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center" > </div>
+                    <div class="bg-stone-800  w-8 h-48 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center" > </div>
+                    <div class="bg-stone-800  w-8 h-48 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center" > </div>
+
+
+                </div> -->
+            </div>
+
+
+             
 
 
 
