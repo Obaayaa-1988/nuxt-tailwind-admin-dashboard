@@ -16,115 +16,16 @@
 
 
             <!-----------------beginning of dropdown menu-------------->
+            <div class="font-body text-sm text-gray-300 pt-4"> <h1>Sample Menu</h1></div>
 
-                <div class="flex justify-center">
-                    <div>
-                        <div class="dropdown relative pt-4">
-                            <button class="
-                          dropdown-toggle
-                          px-6
-                          py-2.5
-                          bg-cyan-400
-                          text-white
-                          font-medium
-                          font-body
-                          text-xs
-                          leading-tight
-                          uppercase
-                          rounded
-                          shadow-md
-                          hover:bg-blue-700 hover:shadow-lg
-                          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-                          active:bg-blue-800 active:shadow-lg active:text-white
-                          transition
-                          duration-150
-                          ease-in-out
-                          flex
-                          items-center
-                          whitespace-nowrap
-                        " type="button" id="dropdownMenuButton1h" data-bs-toggle="dropdown" aria-expanded="false" >
-                            Sample Menu
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2"
-                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor"
-                                        d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z">
-                                    </path>
-                                </svg>
-                            </button>
-                            <ul class="
-                          dropdown-menu
-                          min-w-max
-                          absolute
-                          hidden
-                          bg-white
-                          text-base
-                          z-50
-                          float-left
-                          py-2
-                          list-none
-                          text-left
-                          rounded-lg
-                          shadow-lg
-                          mt-1
-                          hidden
-                          m-0
-                          bg-clip-padding
-                          border-none
-                        " aria-labelledby="dropdownMenuButton1h">
-                                <h6 class="
-                            text-gray-500
-                            font-semibold
-                            text-sm
-                            py-2
-                            px-4
-                            block
-                            w-full
-                            whitespace-nowrap
-                            bg-transparent
-                          ">
-                                    Sample Menu
-                                </h6>
-                                <li>
-                                    <a class="
-                              dropdown-item
-                              text-sm
-                              py-2
-                              px-4
-                              font-normal
-                              block
-                              w-full
-                              whitespace-nowrap
-                              bg-transparent
-                              text-gray-700
-                              hover:bg-gray-100
-                            " href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a class="
-                              dropdown-item
-                              text-sm
-                              py-2
-                              px-4
-                              font-normal
-                              block
-                              w-full
-                              whitespace-nowrap
-                              bg-transparent
-                              text-gray-700
-                              hover:bg-gray-100
-                            " href="#">Another action</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+               
                 
             <!--------------------------end of dropdow menu-------------->
 
             <!--------------------------start of user profile svg icon-------------->
             <div class="flex justify-between"> 
-                <div><img src="images/User.jpg" alt="PanCake" class="w-14 h-14 object-cover rounded-full mt-2" /> </div>
-                <div class="pt-4 text-white font-body font-bold ml-2"> John Doe</div>
+                <div><img src="images/User.jpg" alt="PanCake" class="w-10 h-10 object-cover rounded-full mt-2" /> </div>
+                <div class="pt-4 text-white font-body font-bold ml-2"> Keziah Aurora</div>
             </div>
 
             <!--------------------------end of user profile svg icon -------------->
@@ -365,20 +266,38 @@
         <!--------------------------------------start--of main cards------------------->
 
         <section class="px-24 py-6">
-            <div class="flex justify-between gap-12"> 
+            <div class="flex justify-evenly gap-12"> 
 
-                <div class="bg-stone-800  w-2/4 h-96  rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center">
+                <div class="bg-stone-800 w-2/4 h-96  rounded-3xl overflow-hidden shadow-md relati  py-8">
+                    <div class="flex justify-around mb-4"> 
 
-                    <div> 
-                        <img src="images/User.jpg" alt="PanCake" class="w-36 h-36 object-cover 
-                         pt-2" />
+
+                        <div class="py-12 "> 
+                            <img src="images/User.jpg" alt="PanCake" class="w-48 h-48 object-cover rounded-full" />
+    
+                        </div>
+    
+    
+    
+                        <div class="font-body py-12 mr-8 "> 
+                            <div class="flex pt-4">
+                                <span><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512" class="w-10 h-10 fill-white"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128H384zM576 256c0-106-86-192-192-192H192C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192zM192 352c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96s43 96 96 96z" />
+                                </svg></span>
+                                <p class="mt-2 ml-4 text-white "> Notifications</p>
+                            
+                            </div>
+                            <div class="py-4 text-white"><p>Howdy, Keziah Mahlison</p></div>
+                            <div><p class="text-gray-300 text-xs font-light pb-4">Last login, 12minutes </p></div>
+                            <div><p class="text-gray-300 text-xs font-light pb-4">from 1207.0.0.1</p></div>
+                            <div><p class="bg-cyan-400 text-white px-2 py-2 rounded-3xl font-body">verified</p></div>
+                            
+                        </div>
 
                     </div>
 
-                    <div> 
-                        <h1>hello</h1>
-                        <h1>hello</h1>
-                    </div>
     
     
                     
