@@ -354,7 +354,7 @@
                                 <img src="images/Man.jpg" alt="PanCake" class="w-10 h-10 object-cover rounded-full" /> 
                             
                                 <div class="font font-body pl-8 text-white"> 
-                                    <h3>Arvid Bolso @arvidbest</h3>
+                                    <h3>Stephen Quaicoe @kinblu</h3>
                                     <p>17th January 2023</p>
     
                                 </div>
