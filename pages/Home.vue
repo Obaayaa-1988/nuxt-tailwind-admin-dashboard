@@ -27,6 +27,7 @@
                           bg-cyan-400
                           text-white
                           font-medium
+                          font-body
                           text-xs
                           leading-tight
                           uppercase
@@ -41,7 +42,7 @@
                           flex
                           items-center
                           whitespace-nowrap
-                        " type="button" id="dropdownMenuButton1h" data-bs-toggle="dropdown" aria-expanded="false">
+                        " type="button" id="dropdownMenuButton1h" data-bs-toggle="dropdown" aria-expanded="false" >
                             Sample Menu
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2"
                                     role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -123,7 +124,7 @@
             <!--------------------------start of user profile svg icon-------------->
             <div class="flex justify-between"> 
                 <div><img src="images/User.jpg" alt="PanCake" class="w-14 h-14 object-cover rounded-full pt-2" /> </div>
-                <div class="pt-4 text-white font-mono font-bold ml-2"> John Doe</div>
+                <div class="pt-4 text-white font-body font-bold ml-2"> John Doe</div>
             </div>
 
             <!--------------------------end of user profile svg icon -------------->
@@ -165,12 +166,12 @@
         <!-------------------------sub header ------------------start----------------->
         <div class="flex justify-between px-28 py-12"> 
             <div> 
-                <h1 class="text-white text-3xl font mono font-bold"> Overview</h1>
+                <h1 class="text-white text-3xl font-body"> Overview</h1>
             
             </div>
 
             <div>    
-             <button class=" font-mono text-center rounded font-extrabold  bg-white px-4 py-2"> <h1>Ash Dashboard</h1></button>
+             <button class="font-body text-center rounded font-extrabold  bg-white px-4 py-2"> <h1>Ash Dashboard</h1></button>
             </div>
         </div>
         <!-------------------------sub header ------------------end------------------->
@@ -185,7 +186,7 @@
                 <div class="flex justify-around"> 
 
                     <div>
-                        <h2 class="bg-green-400 px-6 py-1 rounded-md">200</h2>
+                        <h2 class="bg-green-400 px-6 py-1 rounded-md font-body">200</h2>
                     
                     </div>
                     
@@ -203,7 +204,7 @@
                 <div class="flex justify-around pt-8"> 
                 
                     <div>
-                        <h1 class="text-gray-300 font-mono text-xs font-thin"> Clients</h1>
+                        <h1 class="text-gray-300 font-body text-xs font-thin"> Clients</h1>
                         <h2 class="text-white font-mono text-2xl "> 512 </h2>
                     </div>
                 
@@ -228,7 +229,7 @@
                 <div class="flex justify-around"> 
 
                     <div>
-                        <h2 class="bg-red-500 px-6 py-1 rounded-md">200</h2>
+                        <h2 class="bg-red-500 px-6 py-1 rounded-md font-body">200</h2>
                     
                     </div>
                     
@@ -246,8 +247,8 @@
                 <div class="flex justify-around pt-8"> 
                 
                     <div>
-                        <h1 class="text-gray-300 font-mono text-xs font-thin">Sales</h1>
-                        <h2 class="text-white font-mono text-2xl "> $17,777 </h2>
+                        <h1 class="text-gray-300 font-bodytext-xs font-thin ">Sales</h1>
+                        <h2 class="text-white font-body text-2xl "> $17,777 </h2>
                     </div>
                 
                     <div>
@@ -271,7 +272,7 @@
                 <div class="flex justify-around"> 
 
                     <div>
-                        <h2 class="bg-yellow-500 px-6 py-1 rounded-md">conference</h2>
+                        <h2 class="bg-yellow-500 px-6 py-1 rounded-md font-body">conference</h2>
                     
                     </div>
                     
@@ -289,8 +290,8 @@
                 <div class="flex justify-around pt-8"> 
                 
                     <div>
-                        <h1 class="text-gray-300 font-mono text-xs font-thin"> Performance</h1>
-                        <h2 class="text-white font-mono text-2xl "> %256 </h2>
+                        <h1 class="text-gray-300 font-body text-xs font-thin"> Performance</h1>
+                        <h2 class="text-white font-body text-2xl "> %256 </h2>
                     </div>
                 
                     <div>
@@ -314,7 +315,7 @@
                 <div class="flex justify-around"> 
 
                     <div>
-                        <h2 class="bg-cyan-400 px-6 py-1 rounded-md">Last 24 Hours</h2>
+                        <h2 class="bg-cyan-400 px-6 py-1 rounded-md font-body">Last 24 Hours</h2>
                     
                     </div>
                     
@@ -332,8 +333,8 @@
                 <div class="flex justify-around pt-8"> 
                 
                     <div>
-                        <h1 class="text-gray-300 font-mono text-xs font-thin">Alerts</h1>
-                        <h2 class="text-white font-mono text-2xl "> 24 </h2>
+                        <h1 class="text-gray-300 font-body text-xs font-thin">Alerts</h1>
+                        <h2 class="text-white font-body text-2xl "> 24 </h2>
                     </div>
                 
                     <div>
