@@ -2,7 +2,7 @@
     <div > 
         <aside class="w-32" aria-label="Sidebar">
         <div class="px-3 py-4 overflow-y-auto  bg-stone-800 ">
-            <ul class="space-y-9  ">
+            <ul class="space-y-8  ">
                 <li class="flex justify-center">
                     <a href="#"
                         class=" p-2 text-base font-normal  text-white">
