@@ -5,7 +5,7 @@
             <ul class="space-y-8  ">
                 <li class="flex justify-center">
                     <a href="#"
-                        class=" p-2 text-base font-normal  text-white">
+                        class=" p-2 text-base font-body text-white">
                         <span class="ml-3">Dashboard</span>
                     </a>
                 </li>
