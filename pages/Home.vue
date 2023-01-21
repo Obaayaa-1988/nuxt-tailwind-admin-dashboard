@@ -7,8 +7,10 @@
                 <div class="mb-3 xl:w-96">
                     <div class="input-group relative flex flex-wrap items-stretch w-full mb-4">
                         <input type="search"
-                            class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-body text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             placeholder="Search" aria-label="Search" aria-describedby="button-addon2"/>
+
+                            
                         
                     </div>
                 </div>
@@ -16,7 +18,21 @@
 
 
             <!-----------------beginning of dropdown menu-------------->
-            <div class="font-body text-sm text-gray-300 pt-4"> <h1>Sample Menu</h1></div>
+            <div class="font-body text-sm text-gray-300 pt-4 flex justify-between"> 
+                <div> 
+                    <h1>Sample Menu</h1>
+
+                </div>
+                <div> 
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512" class="w-8 h-8 fill-white"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" />
+                    </svg>
+                </div>
+            
+            
+            </div>
 
                
                 
@@ -26,6 +42,13 @@
             <div class="flex justify-between"> 
                 <div><img src="images/User.jpg" alt="PanCake" class="w-10 h-10 object-cover rounded-full mt-2" /> </div>
                 <div class="pt-4 text-white font-body font-bold ml-2"> Keziah Aurora</div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                        class="w-8 h-8 fill-white"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" />
+                    </svg>
+                </div>
             </div>
 
             <!--------------------------end of user profile svg icon -------------->
@@ -65,9 +88,22 @@
         <!---------------mini header start---------------------------------------------->
 
         <!-------------------------sub header ------------------start----------------->
-        <div class="flex justify-between px-28 py-12"> 
-            <div> 
-                <h1 class="text-white text-3xl font-body"> Overview</h1>
+        <div class="flex justify-between px-28 py-12 relative"> 
+           
+            <div class="flex justify-between "> 
+                <div class="bg-stone-800 w-14 h-14 rounded-full ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        class="w-6 h-6 fill-white absolute"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M332.8 320h38.4c6.4 0 12.8-6.4 12.8-12.8V172.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V76.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-288 0h38.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zM496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z" />
+                    </svg>
+                
+                </div>
+
+                <div> 
+                    <h1 class="text-white text-3xl font-body"> Overview</h1>
+
+                </div>
             
             </div>
 
