@@ -1,18 +1,11 @@
 <template>
-    <div class="flex h-screen"> 
-    <SideBar />
-    
-    <div class="flex-1 overflow-hidden flex flex-col ">
-        <div class="bg-slate-700 h-screen">
+    <div class="flex h-full"> 
+      <SideBar />
+      <div class="flex-1 overflow-hidden flex flex-col">
+        <div class="bg-slate-700">
             <Nuxt />
-    
-        </div>
-
-        <!-- <div> 
-            <DashFooter />
-        </div>
-     -->
-    </div>
+       </div>
+      </div>
     </div>
   
 </template>
