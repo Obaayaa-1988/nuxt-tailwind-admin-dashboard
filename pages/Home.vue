@@ -101,7 +101,7 @@
                 </div>
 
                 <div> 
-                    <h1 class="text-white text-3xl font-body"> Overview</h1>
+                    <h1 class="text-white text-3xl font-body py-2 ml-4"> Overview</h1>
 
                 </div>
             
@@ -116,8 +116,8 @@
 
         <!----------------------------------------start-- dark cards----------------->
 
-<section class="rounded-b-3xl w-full h-3/4  px-20 py-6 md:col-span-2 ">
-    <div class=" flex justify-evenly  ">
+<section class="rounded-b-3xl w-full h-3/4  px-20 py-4 ">
+    <div class=" flex justify-evenly gap-10 ">
         <nuxt-link to="/Running">
             <div class="bg-stone-800  w-80 h-48 rounded-3xl overflow-hidden shadow-md relative  cursor-pointer py-8 text-center">
                 <div class="flex justify-around"> 
@@ -152,11 +152,8 @@
                                 d="M352 128c0 70.7-57.3 128-128 128s-128-57.3-128-128S153.3 0 224 0s128 57.3 128 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM609.3 512H471.4c5.4-9.4 8.6-20.3 8.6-32v-8c0-60.7-27.1-115.2-69.8-151.8c2.4-.1 4.7-.2 7.1-.2h61.4C567.8 320 640 392.2 640 481.3c0 17-13.8 30.7-30.7 30.7zM432 256c-31 0-59-12.6-79.3-32.9C372.4 196.5 384 163.6 384 128c0-26.8-6.6-52.1-18.3-74.3C384.3 40.1 407.2 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z" />
                         </svg>
                     </div>
-                
-                
-                
-                </div>
-                
+         
+                </div>   
 
             </div>
         </nuxt-link>
@@ -301,10 +298,10 @@
         <!--------------------------------------end--of dark cards------------------->
         <!--------------------------------------start--of main cards------------------->
 
-        <section class="px-24 py-6">
+        <section class="px-24  py-6">
             <div class="flex justify-evenly gap-12"> 
 
-                <div class="bg-stone-800 w-2/4 h-96  rounded-3xl overflow-hidden shadow-md relati  py-8">
+                <div class="bg-stone-800 w-2/4 h-96  rounded-3xl overflow-hidden shadow-md relati py-8">
                     <div class="flex justify-around mb-4"> 
 
 
@@ -328,23 +325,32 @@
                             <div class="py-4 text-white"><p>Howdy, Keziah Mahlison</p></div>
                             <div><p class="text-gray-300 text-xs font-light pb-4">Last login, 12minutes </p></div>
                             <div><p class="text-gray-300 text-xs font-light pb-4">from 1207.0.0.1</p></div>
-                            <div><p class="bg-cyan-400 text-white px-2 py-2 rounded-3xl font-body">verified</p></div>
+                            <div class="bg-cyan-400 text-white w-3/4 py-2 rounded-3xl font-body flex justify-evenly">
+                                <div>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512" class="w-5 h-5 fill-white"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.3-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z" />
+                                </svg>
+                                   
+                                </div>
+                                <div> 
+                                    <p class=" ">verified</p>
+                                </div>
+
+                                
+                            
+                            </div>
                             
                         </div>
 
                     </div>
-
-    
-    
-                    
-                
-                
                 
                 </div>
 
                 <div class=" w-2/4  " > 
                     <!---main grid-->
-                    <div class="bg-stone-800 w-full h-24 mb-10 rounded-md pt-8 px-8" > 
+                    <div class="bg-stone-800 w-full h-24 mb-12 rounded-md pt-8 px-8" > 
                         <div class="flex justify-between">
                             <div class="flex justify-center">
                                 <img src="images/Woman.jpg" alt="PanCake" class="w-10 h-10 object-cover rounded-full " /> 
@@ -365,7 +371,7 @@
                     </div>
 
 
-                    <div class="bg-stone-800 w-full h-24 mb-10 rounded-md pt-8 px-8" > 
+                    <div class="bg-stone-800 w-full h-24 mb-12 rounded-md pt-8 px-8" > 
                         <div class="flex justify-between">
                             <div class="flex justify-center">
                                 <img src="images/Man.jpg" alt="PanCake" class="w-10 h-10 object-cover rounded-full " /> 
@@ -384,7 +390,7 @@
 
                         </div>
                     </div>
-                    <div class="bg-stone-800 w-full h-24 mb-10 rounded-md pt-8 px-8" > 
+                    <div class="bg-stone-800 w-full h-24 mb-12 rounded-md pt-8 px-8" > 
                         <div class="flex justify-between">
                             <div class="flex justify-center">
                                 <img src="images/Man.jpg" alt="PanCake" class="w-10 h-10 object-cover rounded-full" /> 
@@ -410,12 +416,7 @@
 
         </section>
 
-
-
-
         <!--------------------------------------end--of main cards--------------------->
-
-
 
         <!------------main content of dashboard end----------------------------------->
        
