@@ -335,7 +335,7 @@
                                    
                                 </div>
                                 <div> 
-                                    <p class=" ">verified</p>
+                                    <p class="-ml-4">verified</p>
                                 </div>
 
                                 
