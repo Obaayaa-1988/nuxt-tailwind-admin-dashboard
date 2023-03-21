@@ -1,6 +1,6 @@
 <template>
     <div > 
-        <aside class="w-32" aria-label="Sidebar">
+        <aside class=" h-full" aria-label="Sidebar">
         <div class="px-3 py-4 overflow-y-auto  bg-stone-800 ">
             <ul class="space-y-10 ">
                 <li class="flex justify-center">
@@ -91,7 +91,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="pt-4 mt-4 space-y-8 border-t border-gray-200 dark:border-gray-700">
+            <ul class="pt-4 mt-4 space-y-9 pb-[5px] border-t border-gray-200 dark:border-gray-700">
                 <li class="flex justify-center">
                     <a href="#"
                         class="flex items-center p-2 text-base font-normal  transition duration-75 ">
